@@ -63,8 +63,8 @@
 				92DED27A1BE99792002D30CC /* ViewController.h */,
 				92DED27B1BE99792002D30CC /* ViewController.m */,
 				92DED27D1BE99792002D30CC /* Main.storyboard */,
-				92DED2801BE99792002D30CC /* Assets.xcassets */,
 				92DED2821BE99792002D30CC /* LaunchScreen.storyboard */,
+				92DED2801BE99792002D30CC /* Assets.xcassets */,
 				92DED2851BE99792002D30CC /* Info.plist */,
 				92DED2741BE99792002D30CC /* Supporting Files */,
 			);
@@ -110,6 +110,7 @@
 				TargetAttributes = {
 					92DED2701BE99792002D30CC = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 9QKLXG4845;
 					};
 				};
 			};
@@ -263,7 +264,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = SBTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.adatech.SBTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -274,7 +278,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = SBTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.adatech.SBTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -300,6 +307,7 @@
 				92DED28A1BE99792002D30CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

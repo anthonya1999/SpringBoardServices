@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+typedef kern_return_t SpringBoardServicesReturn;
+
 @interface ViewController : UIViewController
 
-
 @end
-
